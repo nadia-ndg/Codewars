@@ -1,0 +1,15 @@
+function shortcut(str)
+{
+    let al = [ 'a', 'e', 'i', 'o', 'u'];
+    let result = "";
+     
+    for(let i = 0; i < str.length; i++)
+    {
+         
+        if (!al.includes(str[i]))
+        {
+            result += str[i];
+        }
+    }
+    return result;
+}
